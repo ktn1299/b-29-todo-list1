@@ -1,0 +1,38 @@
+/* General reset */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    border-radius: 48px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#taskInput {
+    border-radius: 0.25rem;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.list-group-item .delete-btn {
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.list-group-item .delete-btn:hover {
+    font-weight: bold;
+}
+
+#clearAllBtn {
+    border-radius: 0.25rem;
+}
